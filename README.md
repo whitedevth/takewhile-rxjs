@@ -1,4 +1,6 @@
 ﻿# ตัวอย่างการใช้งาน of ใน rxjs
+ 
+ ### เปลี่ยนค่าให้เป็น observable
 
 ```
 import { of } from 'rxjs';
