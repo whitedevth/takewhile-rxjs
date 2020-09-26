@@ -1,12 +1,12 @@
-﻿### ตัวอย่างการใช้งาน of ใน rxjs [Learn RxJS](https://www.learnrxjs.io/learn-rxjs/operators/creation/of)
+﻿### ตัวอย่างการใช้งาน from ใน rxjs [Learn RxJS](https://www.learnrxjs.io/learn-rxjs/operators/creation/from)
  
- #### เปลี่ยนค่าให้เป็น observable
+ #### เปลี่ยนค่าที่เป็น array ให้เป็น observable
 
 ```
-import { of } from 'rxjs';
+import { from } from 'rxjs';
 
-// พ่นค่า 1, 2, 3, 4, 5 ตามลำดับ
-const source = of(1, 2, 3, 4, 5);
+// พ่นค่า 1, 2, 3, 4, 5 ที่เป็น array ตามลำดับ
+const source = from([1, 2, 3, 4, 5]);
 
 // ผลลัพธ์
 // 1

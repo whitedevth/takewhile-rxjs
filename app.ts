@@ -1,8 +1,7 @@
-import { of } from 'rxjs';
-import { takeWhile } from 'rxjs/operators';
+import { from } from 'rxjs';
 
-// พ่นค่า 1, 2, 3, 4, 5 ตามลำดับ
-const source = of(1, 2, 3, 4, 5);
+// พ่นค่า 1, 2, 3, 4, 5 ที่เป็น array ตามลำดับ
+const source = from([1, 2, 3, 4, 5]);
 
 // ผลลัพธ์
 // 1
