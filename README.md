@@ -1,4 +1,4 @@
-﻿# ตัวอย่างการใช้งาน of ใน rxjs
+﻿# ตัวอย่างการใช้งาน of ใน rxjs [Learn RxJS](https://www.learnrxjs.io/learn-rxjs/operators/creation/of)
  
  ### เปลี่ยนค่าให้เป็น observable
 
